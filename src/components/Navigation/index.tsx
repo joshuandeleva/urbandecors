@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { NavItems } from './NavItems';
 export const Navbar: FC = () => {
     return (
-        <div className="flex justify-between items-center lg:text-bas lg:pr-10 lg:pl-10 w-full min-h-[100px] fixed top-0 z-50:">
+        <div className="flex justify-between items-center lg:text-bas lg:pr-10 lg:pl-10 w-full min-h-[100px] top-0 z-50:">
             <div className="navitems-right flex justify-between">
                 <Logo />
                 <NavItems />
@@ -30,7 +30,7 @@ export const Navbar: FC = () => {
                     </div>
                 </div>
                 <div className="auth-btns items-center flex">
-                    <button className="bg-secondary px-5 py-3 flex items-center mr-3 h-[40px]">
+                    <button className="bg-primary px-5 py-3 flex items-center mr-3 h-[40px]">
                         <Link to="/login" className="text-white lg:text-sm">
                             Sign Up
                         </Link>
