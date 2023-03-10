@@ -7,6 +7,7 @@ module.exports = {
             btnColor: '#b2bec3',
             secondary: '#000000',
             white: '#ffffff',
+            hovercolor: '#F3F3F3',
         },
         screens: {
             sm: '640px',

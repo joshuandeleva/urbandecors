@@ -36,6 +36,6 @@ jobs:
         
       - run: yarn build
       
-      - run: yarn netlify:deploy
+      #- run: yarn netlify:deploy
         
         
