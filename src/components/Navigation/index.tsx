@@ -31,7 +31,7 @@ export const Navbar: FC = () => {
                 </div>
                 <div className="auth-btns items-center flex">
                     <button className="bg-primary px-5 py-3 flex items-center mr-3 h-[40px]">
-                        <Link to="/login" className="text-white lg:text-sm">
+                        <Link to="/register" className="text-white lg:text-sm">
                             Sign Up
                         </Link>
                     </button>

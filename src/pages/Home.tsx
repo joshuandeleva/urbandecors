@@ -12,7 +12,6 @@ export const Home: FC = () => {
                     description="We help you make your home tidy and beautiful home .Our PRoducts are the right items to make a minimalist home that looks neat and well planned ,Buyong furniture should leave you happy and give a good looking home"
                 />
             </div>
-
             <div className="footer">
                 <Footer />
             </div>
